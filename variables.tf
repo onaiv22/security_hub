@@ -33,7 +33,7 @@ variable "email" {
     description = "The email of the member AWS Account"
 }
 
-varaible "members" {
+variable "members" {
     type = list(any)
     default = []
     description = "List of member accounts as [{account_id: '3333', email: 'fokutaaker.com'}, {...}]"
